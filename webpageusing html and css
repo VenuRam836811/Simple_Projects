@@ -1,0 +1,128 @@
+.......html......
+
+
+
+
+<html>
+    <head>
+        <link rel="stylesheet" href="day2.css">
+    </head>
+    
+        <body>
+            
+            <h1 class="h1">Pure.Css</h1>
+            <p class="p1">A set of small responsive CSS module that<br>You can use in eery web project</p>
+            
+            <p align="center"><button class="a">Get Started</button><button class="a1">View on GitHub</button></p>
+            <navbar>
+                <ul>
+                    <li class="b">Base<br>0.9KB</li>
+                    <li class="c">Grides<br>0.6KB</li>
+                    <li class="d">Forms<br>1.4KB</li>
+                    <li class="e">Buttons<br>0.7KB</li>
+                    <li class="f">Tablets<br>0.5KB</li>
+                    <li class="g">Menus<br>0.7KB</li>
+                </ul>
+            </navbar>
+        </body>
+        
+    
+</html>
+
+
+
+
+
+.......css.......
+
+
+
+
+
+
+.h1{
+    text-align: center;
+    font-size: 100px;
+    color:red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.p1{
+    text-align:center;
+    font-size:50px;
+    color:blue;
+}
+.a{
+    float: center;
+    color:white;
+    
+    border-radius: 50px;
+    background-color: lightblue;
+    height: 50px;
+    width:150px;
+}
+.a:hover{
+    background-color: aqua;
+}
+.a1{
+    float: center;
+    color:white;
+    
+    border-radius: 50px;
+    background-color: gray;
+    height: 50px;
+    width:150px;
+}
+.a1:hover{
+    background-color: brown;
+}
+
+li {
+    display: block;
+    color: black;
+    float: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    float:left;
+  }
+  .b{
+    float:center;
+    border-radius: 50px;
+    background-color: lightskyblue;
+    height: 50px;
+    width:180px;
+  }
+.c{
+    float:center;
+    border-radius: 50px;
+    background-color: purple;
+    height: 50px;
+    width:180px;
+  }
+.d{
+    float:center;
+    border-radius: 50px;
+    background-color: lightgreen;
+    height: 50px;
+    width:180px;
+  }
+.e{
+    float:center;
+    border-radius: 50px;
+    background-color: lightpink;
+    height: 50px;
+    width:180px;
+  }
+.f{
+    float:center;
+    border-radius: 50px;
+    background-color: orange;
+    height: 50px;
+    width:180px;
+  }
+.g{
+    float:center;
+    border-radius: 50px;
+    background-color: yellow;
+    height: 50px;
+    width:180px;
+  }
