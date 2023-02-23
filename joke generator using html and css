@@ -1,0 +1,49 @@
+.......html......
+
+
+
+
+
+
+
+<html>
+    <head>
+        <title>Joke generator</title>
+        <link rel="stylesheet" href="mamproject.css">
+    </head>
+    <body>
+        <h1><b>Do you wanna hear something funny?</b></h1>
+       
+        <img src="https://e7.pngegg.com/pngimages/564/785/png-clipart-dave-the-minion-minions-stuart-the-minion-standee-minion-large-cartoon-minion-poster-cartoons-thumbnail.png">
+        <button class="button">yes!!</button><br>
+        <a <button>click here to generate a joke</button></a>
+    </body>
+</html>
+
+
+
+
+
+
+.......css.....
+
+
+
+
+
+
+body{
+    background-color:aquamarine;
+    text-align: center;
+}
+.button{
+    background-color: brown;
+    color:white;
+    border-radius: 25px;
+width:80px;
+height:30px;
+text-align: center;
+}
+.button:hover{
+    background-color:greenyellow;
+}
