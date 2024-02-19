@@ -8,7 +8,8 @@ class  TicTacToe
 	{
 		Scanner sc=new Scanner(System.in);
 		char[][] board=new char[3][3];
-		char player='O';
+		System.out.println("who we want to start O (or) X");
+		char player=sc.next().charAt(0);
 		boardDeclaration(board);
 		while(true)
 		{
