@@ -6,9 +6,10 @@ class  TicTacToe
 {
 	public static void main(String[] args) 
 	{
+		System.out.println("                             ....*....WELCOME TO TIC TAC TOE GAME....*....");
 		Scanner sc=new Scanner(System.in);
 		char[][] board=new char[3][3];
-		System.out.println("who we want to start O (or) X");
+		System.out.println("who we want to start -O (or) X");
 		char player=sc.next().charAt(0);
 		boardDeclaration(board);
 		while(true)
@@ -35,7 +36,7 @@ class  TicTacToe
 			}
 			else
 				System.out.println("invalid move..try again...");
-			player=(player=='O') ? 'X':'O';
+			player=(player=='o') ? 'x' : 'o';
 		}
 	}
 	public static void boardDeclaration(char[][] board)
