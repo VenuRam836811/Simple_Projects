@@ -3,6 +3,8 @@
 
 
 import java.util.*;
+import java.time.LocalTime;
+import java.time.LocalDate;
 class Methods 
 {
 	
@@ -30,7 +32,6 @@ class Methods
 		}
 		System.out.println();
 		System.out.println();
-		//System.out.println("                               Thankyou for visiting !!!!");
 		
 	}
 	void check_balance()
@@ -41,17 +42,23 @@ class Methods
 		System.out.println("                        Balance Amount\n                           xxxx.xx");
 		System.out.println();
 		System.out.println();
-		//System.out.println("Collect Your Card  ");
-		//System.out.println("                               Thankyou for visiting !!!!");
 	}
 	void balance_receipt()
 	{
 		Scanner sc=new Scanner(System.in);
+		LocalTime a=LocalTime.now();
+		int hour=a.getHour();
+		int min=a.getMinute();
+		int sec=a.getSecond();
+		LocalDate b=LocalDate.now();
+		int day=b.getDayOfMonth();
+		int month=b.getMonthValue();
+		int year=b.getYear();
 		System.out.println("Enter the Pin");
 		int pin=sc.nextInt();
 		System.out.println("                                KARNATAKA BANK OF BANGALORE");
 		System.out.println("                                      Customer Advice");
-		System.out.println("                          Date: DD//MM/YEAR           Time : HH:MM");
+		System.out.println("                          Date: "+day+"-"+month+"-"+year+"           Time : "+hour+":"+min+":"+sec);
 		System.out.println("                          Withdrawal  RS  : 0000.00");
 		System.out.println("                          From   A/C      : xxxxxxxxxxxxxxx");
 		System.out.println("                          Avail BAL       : #####.##");
@@ -60,8 +67,6 @@ class Methods
 		System.out.println("                          ...........................................");
 		System.out.println();
 		System.out.println();
-		//System.out.println("Collect your card  ");
-		//System.out.println("                               Thankyou for visiting !!!!");
 	}
 	void pin_change()
 	{
@@ -77,8 +82,6 @@ class Methods
 		System.out.println("                       .....SYCCESSFULLY YOU CHANGED THE ATM PIN.....");
 		System.out.println();
 		System.out.println();
-		//System.out.println("Collect your card  ");
-		//System.out.println("                               Thankyou for visiting !!!!");
 	}
 	void pin_setting()
 	{
@@ -92,12 +95,10 @@ class Methods
 		System.out.println("                       .....SYCCESSFULLY YOU CREATED THE ATM PIN.....");
 		System.out.println();
 		System.out.println();
-		//System.out.println("Collect your card  ");
-		//System.out.println("                               Thankyou for visiting !!!!");
 	}
 }
 
-public class Atm_console_based_project
+public class ATM
 {
 	public static void main(String[] args)
 	{
