@@ -1,0 +1,37 @@
+.image{
+    width: 30%;
+    height: 50%;
+    margin-top: 30px;
+    margin-left: 650px;
+}
+.para{
+    text-align: center;
+}
+.aa{
+    font-size: 50px;
+    color:brown
+}
+.bb{
+    font-size:30px;
+    color:cadetblue;
+}
+.back{
+    height:40px;
+    width:70px;
+    background-color: yellow;
+    font-size: 20px;
+}
+.back:hover{
+    background-color: blueviolet;
+}
+.buy{
+    height:40px;
+    width:100px;
+    background-color: blue;
+    font-size: 20px;
+    margin-left:20px;
+    color:white;
+}
+.buy:hover{
+    background-color: black;
+}
